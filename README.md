@@ -73,7 +73,7 @@ In conjunction with these forms, an intuitive filtering option is provided throu
 
 - If you have experienced or been made aware of unacceptable behaviour, please remember that you can message on :
 
-  - [Linkedin]([https://github.com/raptor4444/Fyle-WebDev-Assignment/edit/main/README.md](https://www.linkedin.com/in/raptor4444/)https://www.linkedin.com/in/raptor4444/)
+  - [Linkedin](https://www.linkedin.com/in/raptor4444/)
   - [Twitter](https://twitter.com/_raptor4444_)
 
     
