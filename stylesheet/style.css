@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+header {
+  background-color: #232323;
+  color: white;
+  padding: 1rem 5em;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#top-container {
+  background-color: #e5fce6;
+}
+
+.repository-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.repository-card {
+  width: calc(50% - 20px);
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  transition: box-shadow 0.3s ease-in-out;
+  background-color: #e1f1fd;
+}
+
+.repository-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.repository-name {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.repository-description {
+  color: #555;
+  padding-bottom: 10px;
+}
+
+.repository-language {
+  font-size: 0.9em;
+  color: #777;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.repository-language .language-button {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.forked-indicator {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #777;
+  font-size: 0.8em;
+}
+
+#pagination {
+  margin-top: 20px;
+  text-align: center;
+  padding: 3rem 5rem;
+  background-color: #e5fce6;
+}
+
+#page-info {
+  margin: 0 10px;
+}
+
+#repo-limit {
+  padding: 0.2rem;
+}
+
+label[for="forked-filter"] {
+  padding-left: 1.5rem;
+}
+
+label[for="repo-limit"] {
+  font-size: 1rem;
+  padding-left: 1.5rem;
+}
+
+#pagination button {
+  background-color: white;
+}
